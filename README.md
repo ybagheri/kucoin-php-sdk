@@ -1,1 +1,2 @@
 # kucoin-php-sdk
+.

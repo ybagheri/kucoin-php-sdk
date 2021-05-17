@@ -1,0 +1,28 @@
+{
+"name": "ybagheri/kucoin-php-sdk",
+  "description": "Unofficial SDK of KuCoin",
+  "license": "MIT",
+  "minimum-stability" : "dev",
+  "prefer-stable" : true,
+  "keywords": ["PHP","KuCoin","Cryptocurrency","Exchange"],
+  "authors": [
+    {
+      "name": "Yousef Bagheri",
+      "email": "ybagheri83@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",    
+    "kucoin/kucoin-php-sdk": "~1.1.0"   
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5.*",
+    "josegonzalez/dotenv": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ybagheri\\KuCoin\\": "src/"
+    }
+  }
+}
+
